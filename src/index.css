@@ -1,1 +1,35 @@
 @import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #141310;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4160bf;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4160bf/80;
+}
+
+/* Smooth Animations */
+* {
+  transition: all 0.3s ease;
+}
